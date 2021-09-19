@@ -1,0 +1,13 @@
+n=int(input("Enter the number of elements you want in the list:"))
+l1=list()
+for i in range(n):
+    a=int(input("Enter element="))
+    l1.append(a)
+s=sum(l1)
+Max=max(l1)
+Min=min(l1)
+Avg=(s/n)
+print("Sum of numbers in the list is :" ,s)
+print("Maximum number in the list is :" ,Max)
+print("Mininum number in the list is :" ,Min)
+print("Average of numbers in the list is :" ,Avg)

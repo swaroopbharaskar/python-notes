@@ -1,0 +1,1 @@
+print("abcdef".center(7,1))

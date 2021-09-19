@@ -1,0 +1,5 @@
+print("To calculate momentum")
+mass = float(input("Enter mass in kgs: "))
+velocity = float(input("Enter velocity in m/s: ")) 
+momentum = mass*(velocity**2)
+print('Momentum of object is', momentum)
